@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
+
 body {
   background: #2c2141;
   display: flex;
@@ -23,16 +25,22 @@ body {
   padding: 32px;
 }
 
-.osoba__zdjęcie {
-  border-radius: 50%;
+.osoba {
+  display: flex;
+  align-items: flex-start;
 }
 
-.osoba__info{
+.osoba__zdjęcie {
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+.osoba__info {
   margin-bottom: 24px;
 }
 
 .osoba__link {
-  color: #E20613;
+  color: #e20613;
   text-decoration: none;
 }
 
@@ -46,15 +54,13 @@ body {
   font-size: 18px;
   margin: 0px;
   font-style: italic;
-  color: #545454
-  
+  color: #545454;
 }
 
 .osoba__opis {
   font-size: 16px;
   line-height: 22px;
   margin: 0;
-
 }
 
 .osoba__opis--modyfikator {
@@ -62,8 +68,6 @@ body {
 }
 
 .special {
-  color: #ED6D05;
+  color: #ed6d05;
   font-weight: normal;
-
 }
-
