@@ -1,15 +1,51 @@
-body{
-background-color: #2C2141;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh; 
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.main{
-  background-color: #F8F8F8;
+.main {
+  background: #f8f8f8;
   border-radius: 16px;
   width: 624px;
   margin: 16px;
+  padding: 32px;
+}
+
+.osoba__zdjęcie {
+  border-radius: 50%;
+}
+
+.osoba__nazwa {
+  font-size: 36px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.osoba__stanowisko {
+  font-size: 18px;
+  margin: 0px;
+  font-style: italic;
+  color: #545454
+}
+
+.osoba__opis {
+  font-size: 16px;
+  line-height: 22px;
+}
+.special {
+  color: #ED6D05;
+  font-weight: normal;
 
 }

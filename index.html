@@ -1,28 +1,45 @@
-    <!DOCTYPE html>
-    <html lang="pl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wizytówka</title>
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wizytówka</title>
 
-        <link href="normalize.css" rel="stylesheet" type=text/css>
-        <link href="style.css" rel="stylesheet " type=text/css>
+    <link href="normalize.css" rel="stylesheet" type=text/css> <link
+    href="style.css" rel="stylesheet " type=text/css>
+  </head>
+  <body>
+    <main class="main">
+      <article class="osoba">
+        <img
+          class="osoba__zdjęcie"
+          src="zdjecieW.jpeg"
+          alt="Zdjęcie Imię i nazwisko"
+        />
 
-    </head>
-    <body>
-
-    <main class= "main">
-        <article>
-            <img src= "avatar.jpg" alt = "Zdjęcie Imię i nazwisko"/>
-
-            <header class= "header">
-                <h1> Małgorzata Ordak </h1>
-                 <p> Junior developer</p>
-            </header>
-        </article>
-        
-
-    </main>    
-
-    </body>
-    </html>
+        <header class="osoba__info">
+          <h1 class="osoba__nazwa">Małgorzata Ordak</h1>
+          <p class="osoba__stanowisko">Junior developer</p>
+        </header>
+        <p class="osoba__opis">
+          Programista bez
+          <strong class="special">najmniejszego doświadczenia</strong>.
+          Prywatnie matka i żona. Uwielbia dobre jedzenie, podróże, słońce i
+          palmy :). Kręci ją
+          <strong class="special">
+            morsowanie i pokonywanie własnych granic</strong
+          >. Uparta choleryczka, ale da się ją lubić ;).
+        </p>
+        <p class="osoba__opis">
+          W sieci:
+          <a href="https://www.facebook.com/profile.php?id=100001558369146">
+            Facebook</a
+          >,
+          <a href="https://github.com/malgorzata-ordak/homepage/pull/1/files"
+            >GitHub</a
+          >, <a href="https://www.instagram.com/malgosika_o/">Instagram.</a>
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
